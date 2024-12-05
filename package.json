@@ -2,9 +2,10 @@
   "name": "shees-backend",
   "version": "1.0.0",
   "description": "This is my journy of a backend developer",
+  "type":"module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javasecript",
@@ -14,8 +15,5 @@
     "shees"
   ],
   "author": "Shees Ikram",
-  "license": "MIT",
-  "devDependencies": {
-    "nodemon": "^3.1.7"
-  }
+  "license": "MIT"
 }
