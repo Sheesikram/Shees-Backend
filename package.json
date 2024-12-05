@@ -14,5 +14,8 @@
     "shees"
   ],
   "author": "Shees Ikram",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
 }
