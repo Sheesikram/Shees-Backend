@@ -2,7 +2,7 @@
   "name": "shees-backend",
   "version": "1.0.0",
   "description": "This is my journy of a backend developer",
-  "type":"module",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js"
@@ -15,5 +15,9 @@
     "shees"
   ],
   "author": "Shees Ikram",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "nodemo": "^1.0.0",
+    "prettier": "^3.4.2"
+  }
 }
