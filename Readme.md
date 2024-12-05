@@ -11,3 +11,4 @@ for database connection we used mongodb atlass and make a network access and 0.0
 (includes your current IP address)
 and databace access also --
 when ever you select database always use try catch or async wait(db is always iin other continenet)
+midle ware is used for in checks between routes like in between req and response (err,req,res,next)
