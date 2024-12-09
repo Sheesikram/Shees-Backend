@@ -16,3 +16,5 @@ If you are looking for basic query pagination library without aggregate, use thi
 bcrypt.js
 Optimized bcrypt in JavaScript with zero dependencies. Compatible to the C++ bcrypt binding on node.js and also working in the browser.How To Safely Store A Password (Hashing)
 -->jwt is a beared Token who wants a token we will give him 
+Access Token expiry is usarly 1 d and refresh token is 7d usually we are using session and cookies as well 
+so access token will not be saved in our db but refresh token will be saved in our db
