@@ -18,3 +18,5 @@ Optimized bcrypt in JavaScript with zero dependencies. Compatible to the C++ bcr
 -->jwt is a beared Token who wants a token we will give him 
 Access Token expiry is usarly 1 d and refresh token is 7d usually we are using session and cookies as well 
 so access token will not be saved in our db but refresh token will be saved in our db
+we use cloudnary for images and videos as string in db
+we used multer for file handling
