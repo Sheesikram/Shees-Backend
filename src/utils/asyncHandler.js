@@ -1,9 +1,13 @@
-const asyncHandler =(requestHandler)=>{
-     (req,res,next)=>{
-        Promise.resolve(requestHandler(req,res,next)).catch((err)=>next(err))
-    }
-    
-}
+const asyncHandler = (requestHandler) => {
+    return (req, res, next) => {
+        console.log("Async handler invoked");
+        Promise.resolve(requestHandler(req, res, next)).catch((err) => {
+            console.error("Error caught in asyncHandler:", err);
+            next(err);
+        });
+    };
+};
+
 //2nd approach
 //its a wraper code
 //fuction into function

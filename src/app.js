@@ -4,6 +4,7 @@ import cookieParser from 'cookie-parser';
 
 
 
+
 const app = express();
 //configs
 app.use(cors({
@@ -18,6 +19,20 @@ app.use(express.urlencoded({extended: true}));
 app.use(express.static('public'));
 //cookie parser
 app.use(cookieParser());
+
+
+//routes import
+import userRouter from './routes/user.routes.js';
+
+
+
+
+//routes declaration
+app.use("/api/v1/users",userRouter);//use postman to view this route
+//http://localhost:8000/api/v1/users/register
+//app.use("/users",userRouter);
+//http://localhost:3000/users/register
+
 
 
 
