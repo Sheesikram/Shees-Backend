@@ -20,3 +20,4 @@ Access Token expiry is usarly 1 d and refresh token is 7d usually we are using s
 so access token will not be saved in our db but refresh token will be saved in our db
 we use cloudnary for images and videos as string in db
 we used multer for file handling
+in mongo db atlas first go to collection then video tube and then user to see the user is now added in the database as well
